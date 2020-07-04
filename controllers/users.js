@@ -28,7 +28,7 @@ module.exports.login = (req, res, next) => {
     .then((user) => {
       const token = jwt.sign({ _id: user._id }, KEY, { expiresIn: '7d' });
       return (res.send({ token })
-                || res.cookie('jwt', token, { maxAge: 3600 * 24 * 7, httpOnly: true }));
+        || res.cookie('jwt', token, { maxAge: 3600 * 24 * 7, httpOnly: true }));
     })
     .catch(next);
 };
