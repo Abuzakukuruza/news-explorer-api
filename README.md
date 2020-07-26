@@ -11,8 +11,8 @@
 ### Ссылки
 
 - Бэкенд проекта доступен по адресам:
-- [api.news-explorer-api.cf](https://api.news-explorer-api.cf)
-  - [www.api.news-explorer-api.cf](https://www.api.news-explorer-api.cf)
+- [api.igrek-news.ml](https://api.igrek-news.ml)
+  - [www.api.igrek-news.ml](https://www.api.igrek-news.ml)
   - [130.193.48.139](http://130.193.48.139/)
 
 ### ПО для выполнения задания:
